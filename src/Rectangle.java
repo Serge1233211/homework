@@ -22,13 +22,7 @@ class Rectangle extends Shape {
     }
 
     @Override
-    double Calculatevolume() {
+    double calculateVolume() {
         return 0;
-    }
-
-    // Define a method to output the length and width of the quadrilateral
-    public void printDimensions() {
-        System.out.println("The length of the quadrilateral is " + length);
-        System.out.println("The width of the quadrilateral is " + width);
     }
 }

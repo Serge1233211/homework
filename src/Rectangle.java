@@ -21,6 +21,11 @@ class Rectangle extends Shape {
         return length * width;
     }
 
+    @Override
+    double Calculatevolume() {
+        return 0;
+    }
+
     // Define a method to output the length and width of the quadrilateral
     public void printDimensions() {
         System.out.println("The length of the quadrilateral is " + length);
